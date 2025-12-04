@@ -19,7 +19,7 @@ else:
     print("   Using CPU (Warning: Training will be slow)")
 
 # 모델 크기 선택
-model_size = 'n'  # n, s, m, l, x 중 선택
+model_size = 'l'  # n, s, m, l, x 중 선택
 print(f"\nModel: yolov8{model_size}-cls.pt")
 
 # 데이터셋 경로 (8-class 원본)
@@ -165,3 +165,4 @@ print("1. Download best.pt model")
 print("2. Test with recycle_classification_5class.py")
 print("3. Compare with previous 5-class model")
 print()
+
